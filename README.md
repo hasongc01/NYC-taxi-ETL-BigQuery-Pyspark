@@ -66,4 +66,5 @@ Sample results from the queries is in BigQuery Results excel file, and sample qu
 
 # References
 https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
 https://github.com/GoogleCloudDataproc/spark-bigquery-connector
