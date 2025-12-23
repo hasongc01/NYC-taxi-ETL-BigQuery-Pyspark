@@ -25,7 +25,7 @@ This project is useful because it mirrors a common real-world analytics workflow
   - The same ETL design can be extended into a streaming or incremental ingestion workflow (new file arrivals → transform → BigQuery) for continuously updated dashboards and monitoring.
 
 # Data Description
-**1)[ NYC Taxi & Limousine Commission (TLC) Yellow Taxi Trip Record Data ]([url](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page))**
+**1) NYC Taxi & Limousine Commission (TLC) Yellow Taxi Trip Record Data**
 
 Primary dataset: NYC TLC Yellow Taxi Trip Record Data for January–December 2024, sourced from the TLC trip record publication. Files are provided in Parquet format.
 Grain: one row per completed trip (trip-level).
@@ -65,4 +65,5 @@ Sample results from the queries is in BigQuery Results excel file, and sample qu
 5. Fare distribution by hour of day
 
 # References
+https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 https://github.com/GoogleCloudDataproc/spark-bigquery-connector
